@@ -1,10 +1,10 @@
 const express =require('express');
 const router = express.Router();
-//const MedicoController = require('../Controller/MedicoController');
+const ControllerUsuarios = require('../Controllers/ControllerUsuarios');
 //---------
-//MEdicos |
+//Usuarios |
 //---------
-//router.get('/Medicos/',MedicoController.Get);
+router.get('/Usuario/',ControllerUsuarios.Get);
 //router.post('/Medico/',MedicoController.Post);
 
 module.exports = router;
